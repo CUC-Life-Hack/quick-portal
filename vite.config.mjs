@@ -1,6 +1,9 @@
-import * as vite from 'vite';
+import * as Vite from 'vite';
+import * as Path from 'path';
 
-export default vite.defineConfig({
+const __dirname = Path.dirname(new URL(import.meta.url).pathname);
+
+export default Vite.defineConfig({
 	root: '.',
 	base: '/',
 	publicDir: 'public',

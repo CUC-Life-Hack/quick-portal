@@ -1,0 +1,31 @@
+{
+	"portals": [
+		{
+			"name": "校务",
+			"entries": [
+				{
+					"name": "中国传媒大学业务服务中心",
+					"description": "课表、学业完成、查分、评教……几乎一切。",
+					"icon": "https://e.cuc.edu.cn/new/portal/images/icons/portal.ico",
+					"href": "https://e.cuc.edu.cn/new/index.html"
+				},
+				{
+					"name": "线上选课",
+					"description": "选课。",
+					"icon": "icons/schedule.svg",
+					"href": "https://xsxk.cuc.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do"
+				}
+			]
+		},
+		{
+			"name": "网课",
+			"entries": [
+			]
+		},
+		{
+			"name": "刷课",
+			"entries": [
+			]
+		}
+	]
+}
