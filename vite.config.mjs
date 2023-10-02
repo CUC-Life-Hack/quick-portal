@@ -9,6 +9,7 @@ export default Vite.defineConfig({
 	publicDir: 'public',
 	server: {
 		port: 12404,
+		host: true,
 	},
 	build: {
 		emptyOutDir: true,
