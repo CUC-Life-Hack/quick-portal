@@ -10,6 +10,7 @@ export default Vite.defineConfig({
 	server: {
 		port: 12404,
 		host: true,
+		strictPort: true,
 	},
 	build: {
 		emptyOutDir: true,
