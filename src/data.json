@@ -11,20 +11,57 @@
 				},
 				{
 					"name": "线上选课",
-					"description": "选课。",
+					"description": "",
 					"icon": "icons/schedule.svg",
 					"href": "https://xsxk.cuc.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do"
+				},
+				{
+					"name": "网上财务平台",
+					"description": "可以在这里更新银行账户信息（CUC 目前是建行限定）。",
+					"icon": "icons/money.svg",
+					"href": "https://cwpt.cuc.edu.cn/dlpt/Newindex.aspx"
+				},
+				{
+					"name": "中国传媒大学",
+					"description": "对外门户网站。",
+					"icon": "http://www.cuc.edu.cn/_upload/tpl/00/56/86/template86/favicon.ico",
+					"href": "http://www.cuc.edu.cn/"
 				}
 			]
 		},
 		{
 			"name": "网课",
 			"entries": [
-			]
-		},
-		{
-			"name": "刷课",
-			"entries": [
+				{
+					"name": "畅课 | Tron Class",
+					"description": "",
+					"icon": "https://tronclass.com.cn/static/assets/images/favicon-b420ac72.ico",
+					"href": "http://courses.cuc.edu.cn/user/index"
+				},
+				{
+					"name": "中国大学 MOOC | iCourse 163",
+					"description": "",
+					"icon": "icons/mooc.png",
+					"href": "https://www.icourse163.org/spoc/university/CUC#/c"
+				},
+				{
+					"name": "雨课堂 | Rain Class",
+					"description": "",
+					"icon": "https://fe-static-yuketang.yuketang.cn/fe/static/vue_images/2.2.562/images/favicon.ico",
+					"href": "https://www.yuketang.cn/"
+				},
+				{
+					"name": "优慕课",
+					"description": "「『教学平台』.cuc.edu.cn」是也。",
+					"icon": "icons/U.svg",
+					"href": "http://jxpt.cuc.edu.cn/meol/personal.do###"
+				},
+				{
+					"name": "智慧树",
+					"description": "",
+					"icon": "https://assets.zhihuishu.com/icon/favicon.ico",
+					"href": "https://www.zhihuishu.com/"
+				}
 			]
 		}
 	]

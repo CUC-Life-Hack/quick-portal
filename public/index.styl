@@ -1,16 +1,3 @@
-html {
-	width: 100%;
-	height: 100%;
-
-	background-color: #eee;
-
-	font-size: 16px;
-	font-family: sans-serif;
-	writing-mode: horizontal-tb;
-
-	user-select: none;
-}
-
 beflex() {
 	display: flex;
 	flex-wrap: nowrap;
@@ -21,6 +8,22 @@ isPc = "screen and (orientation: landscape)";
 
 $borderColor = #777;
 $activeBorderColor = #d22e2e;
+
+html {
+	width: 100%;
+	height: 100%;
+
+	background-color: #eee;
+
+	font-size: 16px;
+	@media isMobile {
+		font-size: 12px;
+	}
+	font-family: sans-serif;
+	writing-mode: horizontal-tb;
+
+	user-select: none;
+}
 
 body {
 	width: 100%;
@@ -44,10 +47,6 @@ body {
 
 		word-break: keep-all;
 		white-space: nowrap;
-		
-		@media isMobile {
-			font-size: 0.8rem;
-		}
 
 		h1 {
 			font-size: 2em;
@@ -93,10 +92,6 @@ body {
 			>header {
 				flex: 0 0 auto;
 				min-width: 16rem;
-
-				@media isMobile {
-					font-size: 0.8rem;
-				}
 
 				>h2 {
 					font-weight: 500;
@@ -144,9 +139,11 @@ body {
 						align-content: stretch;
 						justify-content: stretch;
 
+						flex: 0 0 auto;
+
 						padding: .5rem;
-						width: 3rem;
-						height: 3rem;
+						width: 2.5rem;
+						height: 2.5rem;
 
 						border: 1px solid $borderColor;
 						border-radius: 50%;
@@ -163,7 +160,9 @@ body {
 						beflex();
 						flex-direction: column;
 						gap: .5rem;
-						max-width: 16rem;
+						@media isPc {
+							max-width: 16rem;
+						}
 
 						>h3 {
 							font-size: 1.2em;
