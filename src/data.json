@@ -26,6 +26,18 @@
 					"description": "对外门户网站。",
 					"icon": "http://www.cuc.edu.cn/_upload/tpl/00/56/86/template86/favicon.ico",
 					"href": "http://www.cuc.edu.cn/"
+				},
+				{
+					"name": "教育邮箱",
+					"description": "",
+					"icon": "https://www.cuc.edu.cn/_upload/tpl/00/56/86/template86/favicon.ico",
+					"href": "https://mail.cuc.edu.cn/"
+				},
+				{
+					"name": "可信电子凭证",
+					"description": "查成绩/GPA 的。",
+					"icon": "https://dzpz.cuc.edu.cn/favicon.png",
+					"href": "https://dzpz.cuc.edu.cn/"
 				}
 			]
 		},
