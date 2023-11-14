@@ -13,7 +13,7 @@
 					"name": "线上选课",
 					"description": "",
 					"icon": "icons/schedule.svg",
-					"href": "https://xsxk.cuc.edu.cn/xsxkapp/sys/xsxkapp/*default/index.do"
+					"href": "https://xsxk.cuc.edu.cn/"
 				},
 				{
 					"name": "网上财务平台",
@@ -66,7 +66,7 @@
 					"name": "优慕课",
 					"description": "「『教学平台』.cuc.edu.cn」是也。",
 					"icon": "icons/U.svg",
-					"href": "http://jxpt.cuc.edu.cn/meol/personal.do###"
+					"href": "http://jxpt.cuc.edu.cn/"
 				},
 				{
 					"name": "智慧树",
